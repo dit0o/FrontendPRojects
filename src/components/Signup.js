@@ -66,8 +66,8 @@ const Signup = () => {
             />
           </div>
           <button type="submit">REGISTER</button>
-          <div className="register-link">
-            Already a member? <button className="button" onClick={() => navigate('/login')}></button>
+          <div className="register-link-one">
+            Already a member? <button className="button-one" onClick={() => navigate('/login')}>Login</button>
           </div>
         </form>
       </div>

@@ -27,8 +27,8 @@ h3 {
 
 label {
     display: flex;
-    justify-self:flex-start;
-    align-items:flex-start;
+    justify-self: flex-start;
+    align-items: flex-start;
     margin-top: 20px;
 }
 
@@ -102,8 +102,8 @@ h3 {
 
 label {
     display: flex;
-    justify-self:flex-start;
-    align-items:flex-start;
+    justify-self: flex-start;
+    align-items: flex-start;
     margin-top: 20px;
 }
 
@@ -148,9 +148,23 @@ a:hover {
     text-decoration: underline;
 }
 
-.register-link {
+.register-link-one {
     display: block;
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 0.9rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.button-one {
+
+    margin-top: 20px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(32, 8, 94);
+
+
 }
